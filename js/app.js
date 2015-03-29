@@ -39,6 +39,8 @@ $(window).keydown(function(e) {
     if (e.which == 88) {
       $('.ryu-still').hide();
       $('.ryu-ready').hide();
+      $('.ryu-throwing').hide();
+      $('.hadouken').hide();
       $('.ryu-cool').show().css('display', 'inline-block');
     }
   })
